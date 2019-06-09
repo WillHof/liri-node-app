@@ -11,3 +11,5 @@ node liri.js movie-this ["Movie Name"]
 To search for a song:
 node liri.js spotify ["Song Name"]
 
+You can also enter one of these commands in the random.txt file and have it execute that, with 
+node liri.js doIt

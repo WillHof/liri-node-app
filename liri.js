@@ -26,7 +26,6 @@ function apiSwitch(type, argument) {
 
 function concertThis(artist) {
     axios.get(`https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`).then(function (response) {
-        console.log(response)
         let data = response.data;
         //Displays fields for each concert venue
         data.forEach(element => {

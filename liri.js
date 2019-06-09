@@ -97,15 +97,6 @@ function movieThis(movie) {
         let plot = res.Plot;
         let actors = res.Actors;
         console.log(`\nTitle: ${title}\nRelease Year: ${year}\nIMDB Rating: ${rating}\nRotten Tomatoes Rating: ${RTRating}\nProduced in: ${country}\nLanguage: ${lang}\nPlot: ${plot}\nActors: ${actors}`)
-        // * Title of the movie.
-        // * Year the movie came out.
-        // * IMDB Rating of the movie.
-        // * Rotten Tomatoes Rating of the movie.
-        // * Country where the movie was produced.
-        // * Language of the movie.
-        // * Plot of the movie.
-        // * Actors in the movie.
-
     }).catch(err => console.log(err));
 }
 //do-what-it-says
